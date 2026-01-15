@@ -29,4 +29,12 @@ nav a:visited {
 /* Optional: hover effect for subtle feedback */
 nav a:hover {
   color: #555;                 /* slightly darker on hover */
+
+  /* changes profile image size */
+  .profile-image 
+  {
+  width: 140px;       /* try 120–160px */
+  height: auto;       /* keeps proportions */
+  border-radius: 4px; /* optional, subtle softness */
+}
 }
