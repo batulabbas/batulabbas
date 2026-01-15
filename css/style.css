@@ -1,1 +1,31 @@
+/* Header layout */
+header {
+  text-align: center;          /* center the title and nav */
+  margin-bottom: 2rem;         /* space below header */
+}
 
+/* Main title */
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;         /* space between title and nav */
+  font-family: 'Merriweather', serif;  /* optional clean serif */
+}
+
+/* Navigation links */
+nav a {
+  display: block;              /* vertical stacking */
+  text-decoration: none;       /* remove underline */
+  color: black;                /* unclicked links */
+  margin-bottom: 0.5rem;       /* space between links */
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;   /* optional clean sans */
+}
+
+nav a:visited {
+  color: gray;                 /* clicked links */
+}
+
+/* Optional: hover effect for subtle feedback */
+nav a:hover {
+  color: #555;                 /* slightly darker on hover */
+}
