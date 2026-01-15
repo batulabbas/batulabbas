@@ -1,14 +1,15 @@
 /* Header layout */
 header {
-  text-align: center;          /* center the title and nav */
+  text-align: left;        
+  padding-left: 20px; /* adjusts how far from the left edge */
   margin-bottom: 2rem;         /* space below header */
 }
 
 /* Main title */
 header h1 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;         /* space between title and nav */
-  font-family: 'Merriweather', serif;  /* optional clean serif */
+  font-family: 'Roboto', sans-serif; /* optional clean serif */
 }
 
 /* Navigation links */
