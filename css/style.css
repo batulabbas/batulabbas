@@ -29,18 +29,22 @@ nav a:visited {
 /* Optional: hover effect for subtle feedback */
 nav a:hover {
   color: #555;                 /* slightly darker on hover */
-
+}
+  
   /* changes profile image size */
   .profile-image 
   {
   width: 100px;       /* try 120–160px */
   height: auto;       /* keeps proportions */
   border-radius: 4px; /* optional, subtle softness */
+  display: block;      /* needed for margin auto */
+  margin: 0 auto 1rem auto;  /* centers image horizontally, adds bottom margin */
 }
+  
   /* add a right column under the header */
 .right-column {
   float: right; /* aligns to right */
   width: 300px; /* adjust width */
   margin-left: 20px;
 }
-}
+
