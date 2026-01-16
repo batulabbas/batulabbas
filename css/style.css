@@ -7,7 +7,7 @@ header {
 
 /* Main title */
 header h1 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 1rem;         /* space between title and nav */
   font-family: 'Roboto', sans-serif; /* optional clean serif */
 }
