@@ -34,7 +34,7 @@ nav a:hover {
   /* changes profile image size */
   .profile-image 
   {
-  width: 100px;       /* try 120–160px */
+  width: 120px;       /* try 120–160px */
   height: auto;       /* keeps proportions */
   border-radius: 4px; /* optional, subtle softness */
   display: block;      /* needed for margin auto */
