@@ -37,4 +37,10 @@ nav a:hover {
   height: auto;       /* keeps proportions */
   border-radius: 4px; /* optional, subtle softness */
 }
+  /* add a right column under the header */
+.right-column {
+  float: right; /* aligns to right */
+  width: 300px; /* adjust width */
+  margin-left: 20px;
+}
 }
